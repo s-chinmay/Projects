@@ -1,0 +1,27 @@
+
+Files and their purpose 
+
+board.h and board.cpp
+- Defines and manages the game board
+- Assigns random events to tiles and handle player movements on the board (forward, backward, etc) 
+
+tile.h and tile.cpp
+- Defines the Tile class, including its color, type, and random events
+
+player.h and player.cpp
+- Defines the Player class, storing player stats, current position, path, and advisors 
+
+die.h and die.cpp
+- handles the roll of the die, determining the number of steps the player moves on the board 
+
+cub_training.h and cub_training.cpp
+- Defines the "Cub Training" path.
+
+straight_to_pridelands.h and straight_to_pridelands.cpp
+- Defines the "Straight to Pridelands" path
+
+boardDriver.cpp
+the main driver file to handle user interactions, validate inputs, and run the game
+
+random_events.txt, character.txt, advisor.txt, and riddles.txt
+External text files storing the game's data for events, characters, advisors, and riddles
